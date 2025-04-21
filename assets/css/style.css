@@ -19,11 +19,11 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
-  }
+}
 
 /* Header */
 header {
@@ -97,14 +97,15 @@ main {
 }
 
 #cover-text {
-     /* Final rgba value (.7) sets the opacity so it is semi-transparent */
-     background-color: rgba(241, 109, 107, .7);
-     font-size: 130%;
-     position: absolute;
-     bottom: 30px;
-     width: 80%;
-     min-height: 200px;
-     padding-top: 40px;
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
 #cover-text > h2, #cover-text > h3 {
